@@ -10,8 +10,8 @@
 }
 
 body {
-    background: rgb(11,8,50);
-background: linear-gradient(47deg, rgba(11,8,50,1) 19%, rgba(0,9,36,1) 100%);
+    background: rgb(27,23,64);
+background: linear-gradient(88deg, rgba(27,23,64,1) 0%, rgba(0,9,36,1) 100%);
     color: #FFF;
     height: 100vh;
     font-family: "Nunito";
@@ -67,22 +67,22 @@ h1 {
     font-size: 14px;
 }
 
-@media (min-width:320px) and (max-width:857px){
+@media (min-width:320px) and (max-width:768px){
     iframe{
-        width: 80vw;
-        height: 400px;
+        width: 95vw;
+        height: 200px;
     }
     h1{
         font-size: 2rem;
     }
     .container {
-        max-width: 88vw;
+        max-width: 95vw;
 
     }
 
     .button{
-        width: 80vw;
-        padding: 10px;
+        width: 95vw;
+        padding: 20px;
     }
 
     .button a{
